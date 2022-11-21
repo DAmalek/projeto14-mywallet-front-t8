@@ -1,0 +1,1 @@
+export const primeryColor = "#A328D6"
