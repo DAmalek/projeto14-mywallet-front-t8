@@ -23,7 +23,7 @@ export default function WalletPage() {
       headers: { Authorization: `Bearer ${userToken}` },
     })
       .then(res => {
-        setMoves(res)
+        setMoves(res.data)
         setRefresh(!refresh)
       })
       .catch((err) =>{
